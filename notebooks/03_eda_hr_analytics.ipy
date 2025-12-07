@@ -1,0 +1,13 @@
+import sys, os
+import pandas as pd
+
+sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath("."))))
+
+from src.eda import plot_attrition_by_department, correlation_heatmap
+
+# Load cleaned data
+processed_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath("."))),
+                              "data", "processed", "hr_analytics_employees_clean.csv")
+df = pd.read_csv(processed_path)
+
+df.head()

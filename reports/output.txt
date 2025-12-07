@@ -1,0 +1,20 @@
+
+EMPLOYEE MANAGEMENT HR ANALYTICS REPORT
+---------------------------------------
+
+Total Rows: 1470
+Total Columns: 35
+
+Missing Values After Cleaning: 0
+
+Departments:
+Department
+Research & Development    961
+Sales                     446
+Human Resources            63
+
+Attrition Rate:
+Attrition
+No     83.877551
+Yes    16.122449
+Name: proportion, dtype: float64

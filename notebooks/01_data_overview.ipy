@@ -1,0 +1,12 @@
+import sys
+import os
+
+# Add project root to path
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(".")))
+sys.path.append(project_root)
+
+from src.data_loader import load_hr_data
+
+df = load_hr_data()
+df.head()
+s
